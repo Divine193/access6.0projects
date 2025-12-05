@@ -17,6 +17,9 @@ An 8 weeks data science program organised by the Accounting Department of the Un
 - Add a README.md file with your personal description and structure for the 8 week program
 - push to github
 - Post your repo link in the class sheet
+  
+### Week 2 Topic(incoming)
+- Introduction to Google Collab
 
 ## Personal Description
 
