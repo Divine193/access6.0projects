@@ -24,4 +24,4 @@ The objective of this assignment was to understand the dataset
  - 6   RETAIL SALES      307642 non-null  float64
  - 7   RETAIL TRANSFERS  307645 non-null  float64
  - 8   WAREHOUSE SALES   307645 non-null  float64
-- what is the item type with the highest total sales? Liquor has the highest total sales, it also had the highest volue of sales 
+- what is the item type with the highest total sales? Liquor has the highest total sales, it also had the highest volume of sales 
