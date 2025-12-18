@@ -1,6 +1,6 @@
-#🛒 Warehouse and Retail Sales Performance - initial EDA
+#🛒 Warehouse and Retail Sales Dataset
 
-## Assignment Goal
+## Assignment for week 2 Session 3
 The objective of this assignment was to understand the dataset
 
 ## Data Source
@@ -24,4 +24,21 @@ The objective of this assignment was to understand the dataset
  - 6   RETAIL SALES      307642 non-null  float64
  - 7   RETAIL TRANSFERS  307645 non-null  float64
  - 8   WAREHOUSE SALES   307645 non-null  float64
-- what is the item type with the highest total sales? Liquor has the highest total sales, it also had the highest volume of sales 
+- what is the item type with the highest total sales? Liquor has the highest total sales, it also had the highest volume of sales
+
+# Assignment for Week 2 Session 4
+
+## Assignment Objective
+- Clean the dataset and prepare it for Exploratory Data Analysis
+
+## Data Cleaning Deliverables
+### Handling Missing Values
+- I filled the missing item in the ITEM TYPE column with 'WINE' which is the correct item that should be there according the item description column
+- I filled the missing values under RETAIL SALES column with the mode
+- I filled the missing values under the SUPPLIER column with the word 'UNKNOWN'
+### Checking For Duplicates
+- There were no duplicate rows in this dataset
+### Feature Engineering
+- I created two new columns- DATE column and a TOTAL SALES COLUMN
+### Saving The Dataset
+- I saved my new and cleaned dataset as Cleaned_Sales_Data.csv 
