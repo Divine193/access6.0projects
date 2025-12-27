@@ -21,7 +21,7 @@
 - Answer three business questions developed by you.
 - Use the details below to guide you
 
-***PART A*** - Data Overview & Inspection
+### PART A - Data Overview & Inspection
 - Display the first 5 rows of the dataset.
 - Display the last 5 rows of the dataset.
 
@@ -37,7 +37,7 @@
 - Are there values that suggest possible outliers?
 - Which column(s) might contain unusually large values?
   
-###PART B - Univariate Analysis
+### PART B - Univariate Analysis
 - Numerical Analysis
 - Select one numerical column related to sales or quantity.
 
@@ -59,7 +59,7 @@
 - Which category appears most often?
 - What could this mean for the business?
   
-###PART C - Bivariate Analysis
+### PART C - Bivariate Analysis
 ***Choose:***
 
 - One numerical column
@@ -71,7 +71,7 @@
 - Does spending/sales vary across categories?
 - Which category appears to generate higher values?
 
-###PART D - Outlier Detection
+### PART D - Outlier Detection
 ***Use:***
 
 - .describe()
@@ -83,7 +83,7 @@
 - Why might these outliers exist?
 - Are they likely errors or genuine business events?
   
-###PART E - Correlation Analysis
+### PART E - Correlation Analysis
 
 - Select two numerical columns.
 
@@ -94,7 +94,7 @@
 - Is the correlation weak, moderate, or strong?
 - How could this information be useful in business analysis?
 
-###PART F - Business Questions & Insights
+### PART F - Business Questions & Insights
 ***Develop and answer THREE (3) business questions***
 
 - State the question clearly.
