@@ -24,7 +24,7 @@
 - There were a lot of possible outliers in the numerical columns
 
 # SESSION 6
-## TYPES OF VISUALIZATIONS
+## SESSION 6 TOPIC- TYPES OF VISUALIZATIONS
 ***We talked about:***
 - Distribution Plots
 - Categorical Plots
