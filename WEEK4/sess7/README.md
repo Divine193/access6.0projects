@@ -1,4 +1,4 @@
-# 💾 SESSION 7 - INTRO TO FEATURE ENGINEERING AND MODEL THINKING
+# 💾 SESSION 7 & 8 - INTRO TO FEATURE ENGINEERING AND MODEL THINKING
 
 Week 4 Session 7 focuses on feature engineering, Preprocessing and Model Thinking - Preparing datasets for future machine learning 
 
