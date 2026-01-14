@@ -147,3 +147,4 @@ Our objective is to forecast or estimate the exact RETAIL SALES amount for indiv
       Numerical features (YEAR, RETAIL TRANSFERS, WAREHOUSE SALES) will be scaled (e.g., using StandardScaler or MinMaxScaler) to             ensure consistent ranges and improve model convergence and performance.
       Other Columns like Item Code and Date should be dropped because they are not directly useful in predicting the target variable.
 
+## Part 2
