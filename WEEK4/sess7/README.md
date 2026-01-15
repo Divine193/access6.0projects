@@ -139,12 +139,24 @@ Our objective is to forecast or estimate the exact RETAIL SALES amount for indiv
   - Data Leakage Prevention:
   
      - The TOTAL SALES column must be excluded from the feature set. TOTAL SALES is often a sum of different sales components (including
-         RETAIL SALES and WAREHOUSE SALES), and its inclusion would introduce severe data leakage, leading to an artificially inflated           model performance that would not generalize to unseen data.
+         RETAIL SALES and WAREHOUSE SALES), and its inclusion would introduce severe data leakage, leading to an artificially inflated model performance that would not generalize to unseen data.
   
    -  Feature Transformation:
   
-      Categorical features (SUPPLIER, ITEM DESCRIPTION, ITEM TYPE) will undergo appropriate encoding (e.g., One-Hot Encoding) to               convert them into a numerical format suitable for regression models.
-      Numerical features (YEAR, RETAIL TRANSFERS, WAREHOUSE SALES) will be scaled (e.g., using StandardScaler or MinMaxScaler) to             ensure consistent ranges and improve model convergence and performance.
+      Categorical features (SUPPLIER, ITEM DESCRIPTION, ITEM TYPE) will undergo appropriate encoding (e.g., One-Hot Encoding) to convert them into a numerical format suitable for regression models.
+      Numerical features (YEAR, RETAIL TRANSFERS, WAREHOUSE SALES) will be scaled (e.g., using StandardScaler or MinMaxScaler) to ensure consistent ranges and improve model convergence and performance.
       Other Columns like Item Code and Date should be dropped because they are not directly useful in predicting the target variable.
 
 ## Part 2
+
+### Project Overview 
+ This is a mini project designed to test our knowledge on data cleaning, EDA, and feature engineering 
+The dataset was the popular housing dataset from kaggle 
+
+### Key Insights 
+It was discovered that houses far from the coast were cheaper than houses near the ocean and on the islands.
+Houses on the island had the smallest dara points but the highest average price, this shows that houses tend to be more costly than houses on the Inland.
+It was also discovered that the median income and median house value were strongly positively correlated; this shows that the higher your income, the more luxury bome you will be able to afford.
+I created a new column which i called Bedroom per room which shows the bedroom to room ratio; the lower the ratio, the bigger the house, i.e, many other rooms for work and fun.
+The bedroom per room column was strongly negatively correlated with median income after taking away some inconsistent values gotten from feature creation; this simply means the higher your income, the bigger the house you will buy, because you would want to have rooms for other things like home office, home gym etc.
+I created a second column which i called rooms per household, i.e, shows how much people can be accommodated in a room. This column was strongly negatively correlated with bedroom to room ratio, this makes sense in the real world because the bigger your house, the more people you would be able to accommodate.
