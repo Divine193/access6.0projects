@@ -100,6 +100,48 @@ Identify a suitable target variable
 
 State the problem type and explain your reasoning in 3–5 sentences
 
+🔹Part 2 — End-to-End Data Preparation (New Dataset)
+Dataset
+
+📊 Housing Dataset
+
+🎯 Tasks (Part 2)
+Apply everything learned from Week 1 to Week 4:
+
+- Initial Data Inspection
+
+    - Check shape, columns, data types
+
+    - Identify missing values (if any)
+
+- Data Cleaning
+
+    - Handle missing values appropriately (if any)
+
+    - Fix incorrect data types
+
+    - Remove duplicates (if any)
+
+- Exploratory Data Analysis (EDA)
+
+    - Perform basic univariate and bivariate analysis
+
+    - Create at least 2 visualizations
+
+- Write short insights (1–2 sentences each)
+
+- Feature Engineering, Scaling and Encoding
+
+    - Create at least 2 new features
+
+    - Identify the columns that would be scales and those that would be encoded.
+
+- Model Recommendation
+
+- Identify a target variable
+
+- State the problem type and recommend what type of model will be used (regression, classification or clustering)
+
 ## 📌 Project Solution
 
 ### Part 1:
