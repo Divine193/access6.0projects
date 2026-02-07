@@ -28,5 +28,10 @@
 
 - **Residual Analysis:** The plot of the residuals against the predicted charges shows a cone shape; This means that the variance of the errors are not constant; The model's variance increases as charges go up.This is common in insurance where high cost outliers behave differently than the average patients.
 
+## 📊 Business Interpretations :
+- The results provide actionable insights for the insurance and healthcare sectors:
 
+  - **Dynamic Premium Setting:** Instead of flat rate inceases, insurers can use these models to create more granular pricing tiers that reflect an individual's actual risk profile.
+  - **Incentivizing Health:** Since Smoking and BMI are such heavy drivers of cost, the model justifies business investments in smoking cessation programs and weight management incentives, as these would directly lead to lower claim costs.
+  - **Efficiency in Underwriting:** The classification model can act as a "first pass" in the underwriting process, automatically flagging high risk applications for deeper manual review while streamlinig low-risk approvals.
   
